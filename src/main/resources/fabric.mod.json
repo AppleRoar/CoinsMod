@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "coins",
+  "version": "${version}",
+
+  "name": "Coins mod",
+  "description": "This is a mod that adds coins to the game.",
+  "authors": [
+    "AppleRoar"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/coins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.appleroar.coins.Coins"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
