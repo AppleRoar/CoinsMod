@@ -1,5 +1,6 @@
-package com.appleroar.coins;
+package com.appleroar.coins.registry;
 
+import com.appleroar.coins.Coins;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
