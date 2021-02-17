@@ -20,25 +20,25 @@ public class VillagerOffers {
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 1, factories -> {
             factories.add(new BasicTradeFactory(
-                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 5),
+                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 20),
                             new ItemStack(Items.IRON_HELMET), 12, 1, 0.2F)));
         });
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 1, factories -> {
             factories.add(new BasicTradeFactory(
-                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 9),
+                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 36),
                             new ItemStack(Items.IRON_CHESTPLATE), 12, 1, 0.2F)));
         });
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 1, factories -> {
             factories.add(new BasicTradeFactory(
-                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 7),
+                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 28),
                             new ItemStack(Items.IRON_LEGGINGS), 12, 1, 0.2F)));
         });
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 1, factories -> {
             factories.add(new BasicTradeFactory(
-                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 4),
+                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 16),
                             new ItemStack(Items.IRON_BOOTS), 12, 1, 0.2F)));
         });
 
@@ -49,12 +49,6 @@ public class VillagerOffers {
                     new TradeOffer(new ItemStack(Items.IRON_INGOT, 4),
                             new ItemStack(ModItems.GOLD_COIN, 4), 12, 10, 0.05F)));
         });
-
-//        TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 1, factories -> {
-//            factories.add(new BasicTradeFactory(
-//                    new TradeOffer(new ItemStack(ModItems.GOLD_COIN, 64),
-//                            new ItemStack(Items.BELL, 1), 12, 5, 0.2F)));
-//        });
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.ARMORER, 2, factories -> {
             factories.add(new BasicTradeFactory(
