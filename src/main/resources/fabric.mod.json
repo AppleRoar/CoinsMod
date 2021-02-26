@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Coins mod",
-  "description": "This is a mod that adds coins to the game.",
+  "description": "Adds craft-able gold coins the the game.  Used for player or villager trading.",
   "authors": [
     "AppleRoar"
   ],
