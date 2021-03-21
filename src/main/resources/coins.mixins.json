@@ -4,6 +4,7 @@
   "package": "com.appleroar.coins.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "TradeOfferMixin"
   ],
   "client": [
   ],

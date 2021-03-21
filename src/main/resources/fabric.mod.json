@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Coins mod",
-  "description": "Adds craft-able gold coins the the game.  Used for player or villager trading.",
+  "description": "Adds craftable gold coins the the game; use for player or villager trading.",
   "authors": [
     "AppleRoar"
   ],
@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "coins.mixins.json"
   ],
 
   "depends": {
